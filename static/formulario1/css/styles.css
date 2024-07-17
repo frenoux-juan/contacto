@@ -79,7 +79,7 @@ button[type="submit"] {
 
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
-    .card {
+    .card  {
         width: 100%;
         padding: 10px; /* Reducir el padding en dispositivos móviles si es necesario */
     }
@@ -89,6 +89,20 @@ button[type="submit"] {
     form input[type="email"],
     form textarea {
         width: calc(100% - 15px); /* Ajustar el ancho máximo de los campos en dispositivos móviles */
+    }
+    
+    .todo_formulario{
+        display: flexbox;
+        align-content: center;
+        text-align: center;
+    }
+
+    
+    .todo_formulario img{
+        height: 80%;
+        width: 80%;
+        
+
     }
 }
 
